@@ -29,6 +29,8 @@ public class complexcalc {
                 System.out.println("4. Cos" );
                 System.out.println("5. Sin" );
 
+                System.out.println("Enter Your Choice :");
+
                 
                 int second_choice = scanner.nextInt();
 
@@ -66,6 +68,7 @@ public class complexcalc {
         System.out.println("3. Multiply");
         System.out.println("4. Divide");
 
+        System.out.println("Enter Your Choice :");
         int Operator_choice = scanner.nextInt();
 
         switch (Operator_choice) {
